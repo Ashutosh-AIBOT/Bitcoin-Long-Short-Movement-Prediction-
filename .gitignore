@@ -13,7 +13,6 @@ env/
 .venv/
 .tf-gpu/
 .idea/
-.vscode/
 
 # Ignore large files
 feature_generated_dataset.csv
@@ -101,3 +100,7 @@ desktop.ini
 /data/
 *.bin
 feature_generated_dataset.csv
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
