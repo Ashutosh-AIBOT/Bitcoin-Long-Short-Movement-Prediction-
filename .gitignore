@@ -15,6 +15,22 @@ env/
 .idea/
 .vscode/
 
+# Ignore large files
+feature_generated_dataset.csv
+*.csv
+
+# Ignore models and temp files
+*.pkl
+__pycache__/
+*.ipynb_checkpoints/
+*.log
+*.DS_Store
+
+# Environment
+.env
+venv/
+.env/
+
 # Environment files & API keys
 .env
 *.env
