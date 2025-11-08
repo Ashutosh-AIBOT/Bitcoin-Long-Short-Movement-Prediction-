@@ -1,0 +1,86 @@
+# ----------------------------
+# Python & Flask Project Ignore
+# ----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.tf-gpu/
+.idea/
+.vscode/
+
+# Environment files & API keys
+.env
+*.env
+config.json
+credentials.json
+apikey.txt
+
+# Flask / Web temp files
+instance/
+*.db
+*.sqlite3
+*.log
+*.pid
+
+# Data files
+data.csv
+*.xlsx
+*.parquet
+*.h5
+*.json
+*.pickle
+*.pkl
+
+# Cache & build
+*.egg-info/
+build/
+dist/
+.eggs/
+.cache/
+.ipynb_checkpoints/
+
+# OS & system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Reports or images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled C extensions
+*.so
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Matplotlib cache
+.matplotlib/
+
+# ----------------------------
+# Git Specific
+# ----------------------------
+# Ignore all backups or old saves
+*.bak
+*.old
+
+# ----------------------------
+# Custom Project Ignore
+# ----------------------------
+# Ignore any generated or downloaded Binance data
+/data/
+*.bin
