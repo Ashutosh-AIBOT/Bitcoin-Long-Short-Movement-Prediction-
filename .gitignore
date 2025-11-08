@@ -100,3 +100,4 @@ desktop.ini
 # Ignore any generated or downloaded Binance data
 /data/
 *.bin
+feature_generated_dataset.csv
